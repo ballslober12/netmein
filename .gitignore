@@ -1,0 +1,13 @@
+# build artifacts
+netmein
+netmein_gui
+su
+*.o
+*.zip
+
+# backup of original KickstartJB
+KickstartJB.c.orig
+
+# unrelated/old
+build
+netmein_sdl
