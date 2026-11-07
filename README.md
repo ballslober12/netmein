@@ -1,4 +1,4 @@
-# NetMeIn — LG NetCast 4 privilege escalation (GET OFF MY TV)
+# NetMeIn — LG NetCast 4 privilege escalation 
 
 Root exploit for LG NetCast 4 (mt5398, kernel 3.0.13, armv7l) with a
 full-screen SDL debug-log UI.
@@ -24,8 +24,6 @@ root. On success it installs a minimal static setuid-root `su` in
 - `netmein` is linked against a **statically built** SDL2 with the `nc4`
   video driver (see `SDL-webOS-nc4`) plus the dynamic `liblgncopenapi.so.2`
   from `webos-userland-nc4-support`.
-- It is meant to be launched through the app manager (`nc4app run`) so SDL
-  window actually appears on the TV.
 - The setuid `su` is embedded into `netmein` at build time via `objcopy`.
 
 ## Disclaimer
@@ -35,3 +33,9 @@ For own-device research only.
 ## License
 
 Font: public domain (Daniel Hepper). Everything else: MIT.
+
+## Special Thanks to
+
+DavidBuchanan314 - Decompiled GetMeIn Exploit
+
+so this is my cool slopploit made with deepseek and cool
